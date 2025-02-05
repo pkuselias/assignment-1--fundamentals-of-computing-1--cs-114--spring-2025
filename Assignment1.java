@@ -1,4 +1,5 @@
 import java.util.Scanner;     //Allow for user inpits to be registered
+import java.util.Random;      //Allow for random number generation
 
 public class Assignment1 {
   public static void main(String[] args) {
