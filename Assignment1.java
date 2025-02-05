@@ -21,5 +21,9 @@ public class Assignment1 {
 
     float celcius = (5*(temp-32))/9;      //Converts Fahrenheit to Celcius
 
+    String fiveCharacters;
+    System.out.print("Please enter a 5-character string: ");
+    fiveCharacters = scan.next();
+
   }
 }
