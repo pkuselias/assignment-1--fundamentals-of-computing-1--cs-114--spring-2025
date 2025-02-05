@@ -13,7 +13,7 @@ public class Assignment1 {
 
     System.out.println("");     //Separating initials from Fahrenheit request
 
-    System.out.print("Please enter a number in Fahrenheit: ");
+    System.out.println("Please enter a number in Fahrenheit: ");
 
     float temp;
     Scanner scan = new Scanner(System.in);
@@ -22,7 +22,7 @@ public class Assignment1 {
     float celcius = (5*(temp-32))/9;      //Converts Fahrenheit to Celcius
 
     String fiveCharacters;
-    System.out.print("Please enter a 5-character string: ");
+    System.out.println("Please enter a 5-character string: ");
     fiveCharacters = scan.next();
 
   }
