@@ -51,7 +51,7 @@ public class Assignment1 {
 
     String results;
     results = celcius + modified + number;
-    System.out.println("Your new string is " + results);
+    System.out.println("Your new string is " + results);      //Display concatenated results of Celcius value, modified string, and random number
 
     scan.close();
   }
