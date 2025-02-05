@@ -22,9 +22,13 @@ public class Assignment1 {
 
     float celcius = (5*(temp-32))/9;      //Convert Fahrenheit to Celcius
 
+    System.out.println("");     //Separate Fahrenheit number from 5-character string request
+
     String fiveCharacters;
     System.out.println("Please enter a 5-character string: ");
     fiveCharacters = scan.next();     //Store the user-entered string
+
+    System.out.println("");     //Separate string entering from random number generation
 
     String trimmed;
     trimmed = fiveCharacters.substring(1, 4);      //Remove letters 1 and 5 of 5-character string
@@ -43,6 +47,7 @@ public class Assignment1 {
 
     System.out.println("Generating random number. Continuing...");
 
+    System.out.println("");     //Separate random number generation from final string
 
   }
 }
