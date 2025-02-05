@@ -25,9 +25,9 @@ public class Assignment1 {
     System.out.println("Please enter a 5-character string: ");
     fiveCharacters = scan.next();
 
-    String reversed;
-    reversed = fiveCharacters.substring(1, 4);
-    System.out.println(reversed);
+    String trimmed;
+    trimmed = fiveCharacters.substring(1, 4);      //Removes letters 1 and 5 of 5-character string
+
 
   }
 }
