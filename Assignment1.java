@@ -37,5 +37,11 @@ public class Assignment1 {
     String modified;
     modified = "" + third + second + first;     //Reverse order of the three remaining characters
 
+    Random generator = new Random();
+    int number;
+    number = generator.nextInt(16353) + 32;     //Generate randomly from 0 to 16352 (inclusive), then add 32 (inclusive 32 to 16384)
+
+
+
   }
 }
