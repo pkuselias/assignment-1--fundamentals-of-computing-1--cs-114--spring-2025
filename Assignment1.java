@@ -1,4 +1,4 @@
-import java.util.Scanner;     //Allows for user inpits to be registered
+import java.util.Scanner;     //Allow for user inpits to be registered
 
 public class Assignment1 {
   public static void main(String[] args) {
@@ -11,22 +11,22 @@ public class Assignment1 {
     System.out.println("PPP        KKK    KKK ");
     System.out.println("PPP        KKK     KKK");
 
-    System.out.println("");     //Separating initials from Fahrenheit request
+    System.out.println("");     //Separate initials from Fahrenheit request
 
     System.out.println("Please enter a number in Fahrenheit: ");
 
     float temp;
     Scanner scan = new Scanner(System.in);
-    temp = scan.nextFloat();      //Taking user input as a float
+    temp = scan.nextFloat();      //Take user input as a float
 
-    float celcius = (5*(temp-32))/9;      //Converts Fahrenheit to Celcius
+    float celcius = (5*(temp-32))/9;      //Convert Fahrenheit to Celcius
 
     String fiveCharacters;
     System.out.println("Please enter a 5-character string: ");
-    fiveCharacters = scan.next();     //Stores the user-entered string
+    fiveCharacters = scan.next();     //Store the user-entered string
 
     String trimmed;
-    trimmed = fiveCharacters.substring(1, 4);      //Removes letters 1 and 5 of 5-character string
+    trimmed = fiveCharacters.substring(1, 4);      //Remove letters 1 and 5 of 5-character string
 
     char first, second, third;
     first = trimmed.charAt(0);
@@ -34,7 +34,7 @@ public class Assignment1 {
     third = trimmed.charAt(2);      //Assign the remaining characters to variables first, second, and third accordingly
 
     String modified;
-    modified = "" + third + second + first;     //Reverses order of the three remaining characters
+    modified = "" + third + second + first;     //Reverse order of the three remaining characters
 
   }
 }
