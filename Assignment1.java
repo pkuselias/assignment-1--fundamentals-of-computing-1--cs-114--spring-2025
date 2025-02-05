@@ -19,7 +19,7 @@ public class Assignment1 {
     Scanner scan = new Scanner(System.in);
     temp = scan.nextFloat();      //Taking user input as a float
 
-    float celcius = (5*(temp-32))/9;
-    System.out.println(celcius);      //Converts Fahrenheit to Celcius
+    float celcius = (5*(temp-32))/9;      //Converts Fahrenheit to Celcius
+
   }
 }
