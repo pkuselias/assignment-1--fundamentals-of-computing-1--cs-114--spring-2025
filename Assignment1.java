@@ -49,5 +49,10 @@ public class Assignment1 {
 
     System.out.println("");     //Separate random number generation from final string
 
+    String results;
+    results = celcius + modified + number;
+    System.out.println("Your new string is " + results);
+
+    scan.close();
   }
 }
