@@ -33,8 +33,8 @@ public class Assignment1 {
     second = trimmed.charAt(1);
     third = trimmed.charAt(2);      //Assign the remaining characters to variables first, second, and third accordingly
 
-
-
+    String modified;
+    modified = "" + third + second + first;     //Reverses order of the three remaining characters
 
   }
 }
