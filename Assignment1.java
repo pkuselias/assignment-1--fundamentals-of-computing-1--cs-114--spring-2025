@@ -28,6 +28,10 @@ public class Assignment1 {
     String trimmed;
     trimmed = fiveCharacters.substring(1, 4);      //Removes letters 1 and 5 of 5-character string
 
+    char first, second, third;
+    first = trimmed.charAt(0);
+    second = trimmed.charAt(1);
+    third = trimmed.charAt(2);
 
   }
 }
