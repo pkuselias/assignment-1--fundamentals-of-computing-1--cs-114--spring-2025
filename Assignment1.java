@@ -23,7 +23,7 @@ public class Assignment1 {
 
     String fiveCharacters;
     System.out.println("Please enter a 5-character string: ");
-    fiveCharacters = scan.next();
+    fiveCharacters = scan.next();     //Stores the user-entered string
 
     String trimmed;
     trimmed = fiveCharacters.substring(1, 4);      //Removes letters 1 and 5 of 5-character string
@@ -31,7 +31,10 @@ public class Assignment1 {
     char first, second, third;
     first = trimmed.charAt(0);
     second = trimmed.charAt(1);
-    third = trimmed.charAt(2);
+    third = trimmed.charAt(2);      //Assign the remaining characters to variables first, second, and third accordingly
+
+
+
 
   }
 }
