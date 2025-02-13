@@ -4,6 +4,8 @@ import java.util.Random;      //Allow for random number generation
 public class Assignment1 {
   public static void main(String[] args) {
 
+    System.out.println();
+
     System.out.println("PPPPPPPP   KKK     KKK");
     System.out.println("PPP    PPP KKK    KKK ");
     System.out.println("PPP    PPP KKK   KKK  ");
@@ -12,7 +14,7 @@ public class Assignment1 {
     System.out.println("PPP        KKK    KKK ");
     System.out.println("PPP        KKK     KKK");
 
-    System.out.println("");     //Separate initials from Fahrenheit request
+    System.out.println();     //Separate initials from Fahrenheit request
 
     System.out.println("Please enter a number in Fahrenheit: ");
 
@@ -22,13 +24,13 @@ public class Assignment1 {
 
     float celcius = (5*(temp-32))/9;      //Convert Fahrenheit to Celcius
 
-    System.out.println("");     //Separate Fahrenheit number from 5-character string request
+    System.out.println();     //Separate Fahrenheit number from 5-character string request
 
     String fiveCharacters;
     System.out.println("Please enter a 5-character string: ");
     fiveCharacters = scan.next();     //Store the user-entered string
 
-    System.out.println("");     //Separate string entering from random number generation
+    System.out.println();     //Separate string entering from random number generation
 
     String trimmed;
     trimmed = fiveCharacters.substring(1, 4);      //Remove letters 1 and 5 of 5-character string
@@ -53,6 +55,9 @@ public class Assignment1 {
     results = celcius + modified + number;
     System.out.println("Your new string is " + results);      //Display concatenated results of Celcius value, modified string, and random number
 
+    System.out.println();
+
     scan.close();
+
   }
 }
