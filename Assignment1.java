@@ -49,7 +49,7 @@ public class Assignment1 {
 
     System.out.println("Generating random number. Continuing...");
 
-    System.out.println("");     //Separate random number generation from final string
+    System.out.println();     //Separate random number generation from final string
 
     String results;
     results = celcius + modified + number;
@@ -58,6 +58,5 @@ public class Assignment1 {
     System.out.println();
 
     scan.close();
-
   }
 }
